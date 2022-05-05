@@ -1,1 +1,1 @@
-# User list app
+# User's posts app
