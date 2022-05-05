@@ -1,0 +1,11 @@
+.container {
+  width: fit-content;
+  height: fit-content;
+  padding: 23px 77px 12px 78px;
+  box-shadow: 0px 4px 27px rgba(230, 231, 234, 0.78);
+}
+
+.main-page__container {
+  width: 100%;
+  max-width: 1232px;
+}

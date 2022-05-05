@@ -1,0 +1,27 @@
+.pagination__btn {
+  color: #474955;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.pagination__navigation-btn {
+  background-color: transparent;
+  color: #474955;
+  font-size: 18px;
+  font-style: italic;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.pagination__navigation-btn:last-child {
+  margin-right: 0;
+}
+
+.pagination__navigation-btn.pagination__navigation-btn_active {
+  color: #7ebc3c;
+}
