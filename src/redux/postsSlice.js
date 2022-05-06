@@ -32,7 +32,7 @@ const postsSlice = createSlice({
       state.currentPage = action.payload;
     },
     sortId(state) {
-      if (state.searchResults) {
+      if (state.searchResults && state.searchResults.id) {
         if (state.searchResults[0].id < state.searchResults[1].id) {
           state.searchResults.sort((prev, next) => next.id - prev.id);
         } else {

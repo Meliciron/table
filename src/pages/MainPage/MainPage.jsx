@@ -82,14 +82,16 @@ const MainPage = () => {
     <div className="main-page">
       <Container className="main-page__container">
         <SearchInput search={searchAction} searchClear={searchClear} />
-        <Table
-          className="main-page__table"
-          headers={headers}
-          exeption="userId"
-          headersHandler={headersSort}
-        >
-          {searchResults ? searchResults : posts}
-        </Table>
+        <div className="main-page__table-wrapper">
+          <Table
+            className="main-page__table"
+            headers={headers}
+            exeption="userId"
+            headersHandler={headersSort}
+          >
+            {searchResults ? searchResults : posts}
+          </Table>
+        </div>
         <Pagination
           pagesAmount={pagesAmount}
           nextHandler={nextHandler}

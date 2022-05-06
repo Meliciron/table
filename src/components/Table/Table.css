@@ -3,12 +3,9 @@
 }
 
 .main-page__table {
-  margin-top: 15px;
-  margin-bottom: 16px;
   width: 100%;
   max-width: 1077px;
-  height: fit-content;
-  min-height: 1050px;
+  height: 1040px;
 }
 
 .table__cell.table__header-cell {
@@ -21,22 +18,21 @@
 }
 
 .table__cell {
-  height: 56px;
   border: 1px solid #e3e6ec;
   padding: 11px;
 }
 
-.table__cell:first-child {
+.main-page__table .table__cell:first-child {
   width: 110px;
   min-width: 80px;
 }
 
-.table__cell:nth-child(2) {
+.main-page__table .table__cell:nth-child(2) {
   width: 49%;
   min-width: 137px;
 }
 
-.table__cell:nth-child(3) {
+.main-page__table .table__cell:nth-child(3) {
   width: 40%;
   min-width: 133px;
 }
@@ -48,7 +44,7 @@
   font-weight: 500;
 }
 
-.table__cell:first-child .table__cell-content {
+.main-page__table .table__cell:first-child .table__cell-content {
   justify-content: center;
 }
 

@@ -7,3 +7,9 @@
   min-height: 100vh;
   padding: 10px;
 }
+
+.main-page__table-wrapper {
+  height: 1106px;
+  margin-top: 15px;
+  margin-bottom: 16px;
+}
